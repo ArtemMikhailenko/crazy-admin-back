@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // CORS
   app.enableCors({
-    origin: ['http://localhost:3000', 'http://localhost:3001','http://localhost:3002' ,'https://www.crazy-fox.io','https://www.crazy-fox.io/'],
+    origin: ['http://localhost:3000', 'http://localhost:3001','http://localhost:3002' ,'https://www.crazy-fox.io','https://www.crazy-fox.io/,https://crazy-admin.vercel.app/,https://crazy-admin.vercel.app'],
     credentials: true,
   });
 
